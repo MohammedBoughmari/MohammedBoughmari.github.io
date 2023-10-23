@@ -1,0 +1,20 @@
+h1, h2 {
+    color:red;
+}
+
+section h1{
+    color:green;
+    font-size: 5em;
+}
+
+
+/* class */
+.styleBlue{
+    color:blue;
+    font-size: 4em;
+}
+
+/* ID */
+#opmaak{
+    color: yellow;
+}
