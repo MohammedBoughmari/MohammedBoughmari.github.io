@@ -1,0 +1,8 @@
+.icon-link {
+    background-image: url('afbeelding/image.png');
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 20px;
+}
+
