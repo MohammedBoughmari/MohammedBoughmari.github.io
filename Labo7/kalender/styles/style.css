@@ -1,0 +1,34 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid #333;
+}
+
+th, td {
+    text-align: center;
+    border: 1px dashed blue;
+}
+
+tr.week :first-child {
+    background-color: rgb(255,220,220);
+}
+tr.week :last-child {
+    background-color: rgb(255,220,220);
+}
+
+.vrij {
+    background-color: rgb(250,120,120);
+}
+
+thead {
+    background-color: rgb(170,170,200);
+}
+
+tr.dag {
+    color: rgb(200,190,240);
+    background-color: rgb(35,37,70);
+}
+
+tr.week td.anderMaand {
+    background-color: darkgray;
+    color: grey;
+}
