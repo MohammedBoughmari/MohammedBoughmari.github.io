@@ -1,0 +1,54 @@
+body{
+    background-color: silver;
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav {
+    background-color: white;
+    height: 200px;
+    float: left;
+    width: 20%;
+}
+
+#midden {
+    background-color: maroon;
+    float: left;
+    height: 200px;
+    width: 80%;
+    padding: 10px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+footer {
+    background-color: limegreen;
+    clear: both;
+    height: 120px;
+    text-align: center;
+}
+
+header img {
+    height: 100px;
+    width: auto;
+    display: block;
+    margin: auto;
+}
+
+nav a {
+    text-decoration: none;}
+
+nav li{
+    list-style: none;}
+/* span, a, img -> always inline elem */
+.breedte{
+    display: inline-block;
+    width: 400px;
+    background-color: green;
+    margin: 20px;
+    padding: 10px;
+}

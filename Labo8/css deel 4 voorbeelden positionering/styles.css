@@ -1,0 +1,39 @@
+div {
+	text-align:center;
+	/* de tekst in de blokken staat horizontaal gecentreerd vanwege text-align:center;
+	   de eigenschap vertical-align wordt gebruikt om de verticale uitlijning van inline of inline-block elementen aan te passen
+ 	   maar "center" is geen geldige waarde. En daarom heeft het geen effect.
+ 	   vertical-align beïnvloedt de uitlijning van inline-elementen ten opzichte van tekstlijnen. */
+}
+/* .area.tall heeft voorrang omdat deze een specifiekere selector heeft dan .area */
+.area {
+	width:100px;
+	height:100px;
+	background:red;
+	/* display: table-cell;
+    vertical-align: middle; */
+	display:inline-block;
+	/* bij display:block beginnen elementen op een nieuwe regel en nemen ze de volledige breedte in
+	   bij display:inline is er geen nieuwe regel en de opgegeven breedte en hoogte worden genegeerd
+	   bij display:inline-block worden elementen weergegeven als inline-elementen maar je kunt wel breedte en hoogte specificeren
+	   bij het herschalen zul je merken dat de inline-block elementen zich netjes over de regels verdelen
+	   en ze zullen automatisch naar de volgende regel gaan als er niet genoeg ruimte is op de huidige regel */
+}
+
+.tall {
+	height:150px;
+}
+
+.short {
+	height:50px;
+}
+
+.floaty{
+	float:left;
+	background:green;
+}
+
+.break {
+	clear:both;
+	background:blue;
+}
