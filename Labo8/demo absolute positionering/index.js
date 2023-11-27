@@ -16,7 +16,7 @@ function tick() {
     // verhoog de waarde van de 'left' property
     var left=parseInt(player.style.left); // haalt 30 uit bv "30px"
     left+=1;
-    left%=200;
+    left%=1200;
     player.style.left=left+"px";
 
     window.requestAnimationFrame(tick);
