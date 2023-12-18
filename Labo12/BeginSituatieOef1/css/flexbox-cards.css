@@ -1,5 +1,5 @@
 html {
-   margin: 0px;
+    margin: 0px;
     padding: 0px;
 }
 
@@ -17,6 +17,8 @@ a {
 .container {
     width: 80%;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
 
 .card {
@@ -63,7 +65,7 @@ a {
 }
 
 .container {
-/* flex-eigenschappen */
+    /* flex-eigenschappen */
 }
 
 .card {
